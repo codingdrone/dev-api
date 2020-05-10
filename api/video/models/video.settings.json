@@ -1,0 +1,68 @@
+{
+  "connection": "default",
+  "collectionName": "videos",
+  "info": {
+    "name": "Video"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "publishedAt": {
+      "type": "datetime"
+    },
+    "channelId": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "channelTitle": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "videoCategory": {
+      "type": "enumeration",
+      "enum": [
+        "Fun",
+        "Comedy"
+      ]
+    },
+    "viewCount": {
+      "type": "biginteger"
+    },
+    "likeCount": {
+      "type": "biginteger"
+    },
+    "dislikeCount": {
+      "type": "biginteger"
+    },
+    "favoriteCount": {
+      "type": "biginteger"
+    },
+    "commentCount": {
+      "type": "biginteger"
+    },
+    "thumbnail": {
+      "type": "string"
+    },
+    "defaultLanguage": {
+      "type": "string"
+    },
+    "videoId": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "playlistId": {
+      "type": "string"
+    }
+  }
+}

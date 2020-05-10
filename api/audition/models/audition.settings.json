@@ -1,0 +1,88 @@
+{
+  "connection": "default",
+  "collectionName": "auditions",
+  "info": {
+    "name": "audition"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "haircolor": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "otherPhone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "website": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "height": {
+      "type": "string"
+    },
+    "build": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "measurements": {
+      "type": "string"
+    },
+    "roles": {
+      "type": "string"
+    },
+    "experience": {
+      "type": "text"
+    },
+    "limits": {
+      "type": "text"
+    },
+    "availability": {
+      "type": "boolean"
+    },
+    "agree": {
+      "type": "boolean"
+    },
+    "portfolio": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "whatsapp": {
+      "type": "string"
+    },
+    "mother": {
+      "type": "string"
+    },
+    "father": {
+      "type": "string"
+    },
+    "dob": {
+      "type": "string"
+    }
+  }
+}

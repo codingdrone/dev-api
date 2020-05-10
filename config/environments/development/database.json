@@ -1,0 +1,19 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "mongoose",
+      "settings": {
+        "database": "schools",
+        "host": "ds261626.mlab.com",
+        "srv": false,
+        "port": "61626",
+        "username": "ajay",
+        "password": "ajay456"
+      },
+      "options": {
+        "authenticationDatabase": "schools"
+      }
+    }
+  }
+}
