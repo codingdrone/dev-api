@@ -83,6 +83,9 @@
     },
     "dob": {
       "type": "string"
+    },
+    "city": {
+      "type": "string"
     }
   }
 }

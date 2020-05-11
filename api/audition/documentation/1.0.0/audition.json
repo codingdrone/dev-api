@@ -596,6 +596,9 @@
           },
           "dob": {
             "type": "string"
+          },
+          "city": {
+            "type": "string"
           }
         }
       },
@@ -674,6 +677,9 @@
             "type": "string"
           },
           "dob": {
+            "type": "string"
+          },
+          "city": {
             "type": "string"
           }
         }
